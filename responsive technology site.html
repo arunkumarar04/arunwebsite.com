@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Responsive Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        .menu{
+            float:left;
+            width:20%;
+            text-align:center;
+        }
+        .menu a{
+            background-color:cadetblue;
+            padding:10px;
+            margin-top:8px;
+            display:inline-block;
+            width:100%;
+            color:black;
+        }
+        .right{
+            background-color:#4f6a8c;
+            float:right;
+            width:auto;
+            padding:15px;
+            margin-top:7px;
+            text-align:center;
+        }
+        .main{
+            float:left;
+            width:60%;
+            padding:0 20px;
+        }
+        @media only screen and (max-width:700px){
+            .menu, .main, .right{
+                width:auto
+            }
+        }
+    </style>
+    </head>
+    <body style="font-family:Verdana; color:#aaaaaa;">
+        <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+            <h1>welcome to our site</h1>
+        </div>
+        <div style="overflow:auto">
+            <div class="menu">
+                <a href="https://www.rohde-schwarz.com/in/about/news-press/news-magazine/news-magazine-overview_229360.html?cid=010_com_sea_001_google_22-06_i_generic-tech-news_technology-news_search_text-ad_r-ap___">Link-1</a>
+                <a href="https://www.gadgetsnow.com/tech-news">Link-2</a>
+                <a href="https://www.theverge.com/tech">Link-3</a>
+                <a href="https://tech.hindustantimes.com/tech/news">Link-4</a> 
+                <a href="https://dailytechupdate.com/category/news/?gclid=EAIaIQobChMIi8e3rsqP-gIV8oJLBR2-lgAJEAMYASAAEgKoffD_BwE">Link-5</a>
+            
+            </div>
+            <br>
+            <div class="main">
+                <h2>Technology news</h2>
+                <p>
+                    Twitter will let users edit a tweet up to five times-
+                    Delivery times for Apple's iPhone 14 Pro and Pro Max start slipping to October-
+                    Apple iPhone 14 series: Top deals, cashback and other offers while pre-booking in India-
+                    Airtel 5G roll out starts soon, existing SIMs will support 5G network.
+                </p>
+            </div>
+            <br>
+            <div class="right">
+                <h2>About</h2>
+                <p>Get latest technology news on gadgets launches in India </p>
+            </div>
+        </div>
+        <div style="background-color: #745238;text-align: center;padding: 10px;margin-top: 7px;">©Arun. All rights reserved.</div>
+    </body>
+</html>
